@@ -5,7 +5,7 @@ import { useState } from "react";
 import ShoeCard from "../components/ShoeCard";
 import { shoes, statistics } from "../constants";
 const Hero = () => {
-  const [bigShoeImg, setbigShoeImg] = useState(bigShoe1);
+  const [bigShoeImg, setbigShoeImg] = useState(bigShoe1)
   return (
     <section
       id="home"
@@ -72,10 +72,9 @@ const Hero = () => {
             <div key={shoe}>
               <ShoeCard
                 imgURL={shoe}
-                changeBigShoeImage={(shoe) => setbigShoeImg(shoe)}
-                bigShoeImg={bigShoeImg}
-              />
-            </div>;
+                changeBigShoeImage={(shoe) => setbigShoeImg (shoe)}
+                bigShoeImg={bigShoeImg} />
+            </div>
           })}
         </div>
       </div>
