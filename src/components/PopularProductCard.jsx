@@ -1,3 +1,4 @@
+import { star } from "../assets/icons";
 const PopularProductCard = ({ imgURL, name, price }) => {
   return (
     <div
@@ -5,6 +6,9 @@ const PopularProductCard = ({ imgURL, name, price }) => {
     w-full max-sm:w-full p-y"
     >
       <img src={imgURL} alt={name} className="w-[280px] h-[280px]" />
+      <div className="mt-8 flex justify-start gap2.5">
+        <img src={star} alt="rating" width={24} height={24} />
+      </div>
     </div>
   );
 };
