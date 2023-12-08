@@ -1,4 +1,4 @@
-import { Button} from '../components/Button'
+import { Button } from "../components/Button";
 const SuperQuality = () => {
   return (
     <section
@@ -9,7 +9,8 @@ const SuperQuality = () => {
     >
       <div
         className="flex flex-1
-      flex-col">
+      flex-col"
+      >
         <p className="text-xl font-montserrat text-coral-red">
           Our Summer Collection
         </p>
@@ -29,7 +30,7 @@ const SuperQuality = () => {
           Discover stylish Nike arrivals, quality confort, and innovation for
           your active life.
         </p>
-        <Button label="View details"/>
+        <Button label="View details" />
       </div>
     </section>
   );
